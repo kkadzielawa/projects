@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6e526d197e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>LLK Web Development</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <img src="/img/logo.png" alt="">
+            <h1>LLK Web Development</h1>
+            <div class="hamburger"><i class="fas fa-bars fa-2x"></i></div>
+            <ul class="main-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Splash -->
+        <section id="home" class="main-splash">
+            <div class="slider">
+                <div class="slide current">
+                    <img src="/img/back_end.jpg" alt="">
+                    <div class="content">
+                        <h1>Back-End Development</h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="/img/front_end.jpg" alt="">
+                    <div class="content">
+                        <h1>Front-End Development</h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="/img/ui_design.jpg" alt="">
+                    <div class="content">
+                        <h1>User Interface Design</h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fas fa-arrow-left"></i></button>
+                <button id="next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </section>
+
+
+        <section id="about-me">
+            <h1><span>About Me</span></h1>
+            <div class="wrapper">
+                <img src="/img/personal_photo.png" alt="" srcset="">
+                <div class="txt-wrapper">
+                    <p class="txt-open">Hi! Need a website to get your business going !?</p>
+                    <p>My name is Konrad Kadzielawa. I am currently employed at Epsilon LLC as Senior Analyst.</p>
+                    <p>I am also a freelance web developer who is interested in helping your business grow thorugh online presence. </p>
+                    <p>You are welcome to browse some of the projects/courses as well as types of services I provide.</p>
+                    <p>If you're interested in creating a fully-responsive, dynamic and engaging website for YOUR business, click on the below button and shoot me a quick message. </p>
+                    <p class="txt-close">Looking forward to hearing from you.</p>
+                    <p><a href="#contact" class="btn">Contact Me</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects">
+            <h1><span>Current/Past Projects</span></h1>
+            <div class="wrapper">
+                <div class="one">
+                </div>
+                <div class="two">
+                </div>
+                <div class="three">
+                </div>
+                <div class="four">
+                </div>
+                <div class="five">
+                </div>
+                <div class="six">
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <section id="courses" class="courses">
+            <h1><span>Youtube Courses</span></h1>
+            <div class="wrapper">
+                <div class="one">
+                </div>
+                <div class="two">
+                </div>
+                <div class="three">
+                </div>
+                <div class="four">
+                </div>
+                <div class="five">
+                </div>
+                <div class="six">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services">
+            <h1><span>Services</span></h1>
+            <div class="flex-wrapper">
+
+                <div class="card">
+                    <i class="fas fa-palette fa-5x"></i>
+                    <h1>Custom Design</h1>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-palette fa-5x"></i>
+                    <h1>E-Commerce</h1>
+                </div>
+
+
+                <div class="card">
+                    <i class="fas fa-palette fa-5x"></i>
+                    <h1>Server <br /> Integration</h1>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1><span>Contact Me</span></h1>
+            <div class="wrapper">
+                <div class="info-box">
+                    <p>If you're interested in my services please fill out the available form with required contact information and project details.</p>
+                    <p>Thank you.</p>
+                </div>
+                <div class="form-box">
+                    <form id="contact-form" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="First & Last Name">
+                        <label for="name">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="abc@example.com">
+                        <label for="name">Phone Number:</label>
+                        <input type="text" id="phone" name="phone" placeholder="(111)-11-1111">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="10" columns="30" placeholder="Message..."></textarea>
+                        <input type="submit" value="Send Email" class="submit btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="disclaimer">
+                &copy 2021 LLK Investment Research. All Rights Reserved.
+            </div>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/channel/UChqPSa40XJxfD2NYq7H9Vsw"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/konradkadzielawa/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
